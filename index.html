@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creation,execution,call stack</title>
+    <style>
+        h1{
+            color:blue;
+            text-decoration: underline rgb(245, 11, 50);
+        }
+        h2{
+            color:blue;
+            text-decoration: underline rgb(245, 11, 50);
+        }
+        li{
+            font-weight: bold;
+        }
+        p{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>java script</h1>
+    <ol>
+        <li>The first name of java Mocha </li>
+        <li>java script is used to make websites interactice</li>
+        <li>java script is a client side scripting language</li>
+    </ol>
+    <h2>function</h2>
+    <ul>
+      <li>function is a set of statements that perform a task 
+      or calculate a values. </li> 
+      <li>function avoids the repeatition of writting of code again and again.</li>
+      <li>They work only when they are called.</li>
+      </ul>
+      <h2>Variables</h2>
+      <p>variables are the containers who stores some values 
+          like integers,string e.t.c.
+      </p>
+      <h2>stages of code execution</h2>
+      <b>There are two stages of code execution.</b> 
+      <ol>
+          <li>compilation</li>
+          <li>execution</li>
+          <p>
+           compilation:-The stage in which the complete source code will be
+           converted into machine language code.
+          </p>
+          <p>execution:-in this stage the code will be executed means all the functions which 
+             are written will be executed.
+          </p>
+      </ol>
+      <h2>JS CODE EXECUTION</h2>
+      <ul>
+          <li>global execution</li>
+          <li>execution context</li>
+          <li>call stack</li>
+          <li>memory allocation</li>
+          <li>code execution</li>
+      </ul>
+      <p>JS CODE EXECUTION:-<br> 
+         creation phase:-<br>
+          In the first stage "memory allocation" is being provided 
+          all the variables will get memory but will not be initialized means their
+          value not be given and the value will be like undefined 
+          but function will get their values or defination at the time of memory allocation
+          only.</p>
+          <p>execution phase:-<br>
+          In the second stage "code execution" variables will get assigned with their vvalues 
+          will get assigned with their true values and functions will be executed.
+          </p>
+          <h2>call stack</h2>
+          <b>In this two phases are there:-</b>
+          <ol>
+              <li>global execution context<br>
+               <b> there are two phases</b> 
+                1.creation<br>
+                In this first variables got declared.<br>
+                Memory will get allocated.<br>
+                It will get undefined value<br>
+                fuction declaration.<br>
+                function defination.<br>
+                2.execution<br>
+                In this it will get memory<br>
+                exact value get defined.<br>
+                function will remain same if it is not called<br>
+                if called it will move to next phase i.e functional execution context.
+                but this phase is not over yet.
+              </li>
+              <li> functional execution context </li>
+             <b>again two phases will created.<br>
+              creation  and execution<br>
+              same process get repeated and once the execution phase done it will come out.<br>
+              after that global execution context completed and it will come out too.</b>
+          </ol>
+
+ 
+
+    <script src="./index.js"></script>
+</body>
+</html>
